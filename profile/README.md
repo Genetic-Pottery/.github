@@ -14,3 +14,5 @@ happy outcome rather than the plan.
 
 - **[warlock](https://github.com/Genetic-Pottery/warlock)** — See your codebase the way your AI does. A TUI where documentation is the interface, not the file
   tree. Rust, under active development.
+- **[warlock-deploy](https://github.com/Genetic-Pottery/warlock-deploy)** — A cloud-hosted setup for warlock. An always-on Claude instance you can
+  remote-control into to complete tasks. Terraform and NixOS on EC2.

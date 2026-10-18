@@ -12,7 +12,9 @@ happy outcome rather than the plan.
 
 ## What's here
 
-- **[warlock](https://github.com/Genetic-Pottery/warlock)** — See your codebase the way your AI does. A TUI where documentation is the interface, not the file
-  tree. Rust, under active development.
+- **[warlock](https://github.com/Genetic-Pottery/warlock)** — A Claude Code plugin that keeps AI inside the code your team owns.
+  Each team's directories are a scope tied to its Linear team or Jira project.
+  An agent works only from a ticket, changes only that team's files, and ends in
+  a pull request or a halted ticket that says why. Under active development.
 - **[warlock-deploy](https://github.com/Genetic-Pottery/warlock-deploy)** — A cloud-hosted setup for warlock. An always-on Claude instance you can
   remote-control into to complete tasks. Terraform and NixOS on EC2.

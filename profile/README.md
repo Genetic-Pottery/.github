@@ -18,3 +18,7 @@ happy outcome rather than the plan.
   a pull request or a halted ticket that says why. Under active development.
 - **[warlock-deploy](https://github.com/Genetic-Pottery/warlock-deploy)** — A cloud-hosted setup for warlock. An always-on Claude instance you can
   remote-control into to complete tasks. Terraform and NixOS on EC2.
+- **[migcheck](https://github.com/Genetic-Pottery/migcheck)** — Checks that a release's database migrations don't break the release
+  running in production. It replays the old release's queries against the new
+  schema, the way they run during a rolling deploy or after a rollback.
+  Postgres only.

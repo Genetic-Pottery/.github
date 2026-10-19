@@ -21,4 +21,4 @@ happy outcome rather than the plan.
 - **[migcheck](https://github.com/Genetic-Pottery/migcheck)** — Checks that a release's database migrations don't break the release
   running in production. It replays the old release's queries against the new
   schema, the way they run during a rolling deploy or after a rollback.
-  Postgres only.
+  Supports Postgres and MySQL.

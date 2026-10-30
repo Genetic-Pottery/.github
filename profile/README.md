@@ -18,6 +18,11 @@ happy outcome rather than the plan.
   a pull request or a halted ticket that says why.
 - **[warlock-deploy](https://github.com/Genetic-Pottery/warlock-deploy)** — A cloud-hosted setup for warlock. An always-on Claude instance you can
   remote-control into to complete tasks. Terraform and NixOS on EC2.
+- **[arbiter](https://github.com/Genetic-Pottery/arbiter)** — One front door for a team of warlock boxes. You talk to a single Claude
+  session, by voice from the Claude app if you like. It turns what you say into
+  tickets, routes each one to the box that owns that team, and relays questions
+  back when a box halts. Boxes run in parallel on Bedrock with no logins.
+  Terraform and NixOS on EC2.
 - **[migcheck](https://github.com/Genetic-Pottery/migcheck)** — Checks that a release's database migrations don't break the release
   running in production. It replays the old release's queries against the new
   schema, the way they run during a rolling deploy or after a rollback.
